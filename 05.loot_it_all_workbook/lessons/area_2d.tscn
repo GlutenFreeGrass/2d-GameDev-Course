@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://uvo61qfnps5e"]
+
+[ext_resource type="Script" path="res://lessons/area_2d.gd" id="1_q4m1b"]
+[ext_resource type="Texture2D" uid="uid://dknpi2mq4dhpa" path="res://assets/health_icon.svg" id="2_mongm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_n0r3p"]
+radius = 26.0768
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_q4m1b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_mongm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_n0r3p")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
