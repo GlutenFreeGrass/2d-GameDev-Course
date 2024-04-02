@@ -4,7 +4,7 @@ var normal_speed := 600.0
 var max_speed := 600.0
 var velocity := Vector2(0, 0)
 var boost_speed := 1500.0
-var steering_factor := 10.0
+var steering_factor := 5.0
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
