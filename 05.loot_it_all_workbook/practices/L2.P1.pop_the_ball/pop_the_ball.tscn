@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://4fyw5iptf8i7"]
 
 [ext_resource type="PackedScene" uid="uid://gp1bcjx6qcs" path="res://practices/L2.P1.pop_the_ball/ball.tscn" id="1_nyxov"]
-[ext_resource type="PackedScene" path="res://practices/L2.P1.pop_the_ball/needle.tscn" id="3_w8ucv"]
+[ext_resource type="PackedScene" uid="uid://ds0efjwivoeix" path="res://practices/L2.P1.pop_the_ball/needle.tscn" id="3_w8ucv"]
 
 [node name="PopTheBall" type="Node2D"]
 position = Vector2(960, 540)

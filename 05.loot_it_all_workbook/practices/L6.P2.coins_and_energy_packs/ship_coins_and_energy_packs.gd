@@ -33,8 +33,19 @@ func _process(delta: float) -> void:
 	if position.distance_to(target_position) < 10.0:
 		set_process(false)
 		target_reached.emit()
-
-
-func _on_area_entered(area_that_entered: Area2D) -> void:
-	energy += 20.0
+	
+func set_energy_amount(new_energy: int) -> void:
+	energy = new_energy
 	get_node("UI/EnergyBar").value = energy
+	
+func set_coin_amount(new_coins: int) -> void:
+	coins = new_coins
+	get_node("UI/CoinsCount").text = "x" + str(coins)
+	
+func _on_area_entered(area_that_entered: Area2D) -> void:
+	if area_that_entered.is_in_group("energy"):
+		set_energy_amount(energy + 20)
+	elif area_that_entered.is_in_group("coin"):
+		set_coin_amount(coins + 1)
+	
+	

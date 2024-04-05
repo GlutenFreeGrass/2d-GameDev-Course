@@ -37,3 +37,4 @@ func _process(delta: float) -> void:
 func _on_area_entered(area_that_entered: Area2D) -> void:
 	coins += 1
 	get_node("UI/CoinsCount").text = "x" + str(coins)
+
