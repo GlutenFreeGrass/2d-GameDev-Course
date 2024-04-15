@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=2 format=3 uid="uid://bk2ok6he85am7"]
 
 [ext_resource type="Script" path="res://practices/L7.P1.spawn_random_items/random_collectible_placer.gd" id="1_8cyt6"]
 
