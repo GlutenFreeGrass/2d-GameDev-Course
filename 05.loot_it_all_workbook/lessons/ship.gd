@@ -11,6 +11,7 @@ func _ready():
 	area_entered.connect(_on_area_entered)
 
 func _process(delta: float) -> void:
+	var viewport_size := get_viewport_rect().size
 	var direction := Vector2(0, 0)
 	direction.x = Input.get_axis("move_left", "move_right")
 	direction.y = Input.get_axis("move_up", "move_down")
@@ -25,6 +26,9 @@ func _process(delta: float) -> void:
 
 	if velocity.length() > 0.0:
 		get_node("Sprite2D").rotation = velocity.angle()
+	
+	position.x = wrapf(position.x, 0, viewport_size.x)
+	position.y = wrapf(position.y, 0, viewport_size.y)
 
 func set_health(new_health: int) -> void:
 	health = new_health
