@@ -39,7 +39,9 @@ func set_gem_count(new_gem_count: int) -> void:
 	get_node("UI/GemCount").text = "x" + str(gem_count)
 	
 func _on_area_entered(area_that_entered: Area2D) -> void:
-	if area_that_entered.is_in_group("healing_item"):
-		set_health(health + 10)
-	elif area_that_entered.is_in_group("gem"):
+	if area_that_entered.is_in_group("gem"):
 		set_gem_count(gem_count + 1)
+	
+	elif area_that_entered.is_in_group("healing_item"):
+		set_health(health + 10)
+
