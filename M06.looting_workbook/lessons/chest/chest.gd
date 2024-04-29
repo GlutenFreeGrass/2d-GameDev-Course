@@ -1,8 +1,13 @@
 extends Area2D
 
 @onready var canvas_group: CanvasGroup = $CanvasGroup
+@onready var animation_player: AnimationPlayer = $AnimationPlayer 
 
-# Called when the node enters the scene tree for the first time.
+
+func open() -> void:
+	animation_player.play("open")
+	input_pickable = false
+	
 func _ready() -> void:
 	mouse_entered.connect(_on_mouse_entered)
 	mouse_exited.connect(_on_mouse_exited)
@@ -23,3 +28,8 @@ func _process(delta):
 
 func set_outline_thickness(new_thickness: float) -> void:
 	canvas_group.material.set_shader_parameter("line_thickness", new_thickness)
+	
+func _input_event(viewport: Node, event: InputEvent, shape_idx: int):
+	var event_is_mouse_click: bool = (event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.is_pressed())
+	if event_is_mouse_click:
+		open()
