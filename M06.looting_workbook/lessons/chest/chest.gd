@@ -38,7 +38,7 @@ func _input_event(viewport: Node, event: InputEvent, shape_idx: int):
 	var event_is_mouse_click: bool = (event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.is_pressed())
 	if event_is_mouse_click:
 		open()
-		
+	
 func _spawn_random_item() -> void:
 	var loot_item: Area2D = possible_items.pick_random().instantiate()
 	add_child(loot_item)
@@ -47,7 +47,7 @@ func _spawn_random_item() -> void:
 	var random_distance := randf_range(60.0, 120.0)
 	var land_position := random_direction * random_distance
 	
-	const FLIGHT_TIME := 0.5
+	const FLIGHT_TIME := 1.0
 	const HALF_FLIGHT_TIME := FLIGHT_TIME / 2.0
 	
 	var tween := create_tween()
