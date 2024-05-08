@@ -16,8 +16,8 @@ func _process(delta):
 
 func random_landing_pad() -> void:
 	var random_angle := randf_range(0.0, 2.0 * PI)
-	var random_direction := Vector2(1.5, 0.0).rotated(random_angle)
-	var random_distance := randf_range(10.0, 30.0)
+	var random_direction := Vector2(2.0, 1.0).rotated(random_angle)
+	var random_distance := randf_range(10.0, 100.0)
 	var land_position := random_direction * random_distance
 	
 	const HOP_TIME := 0.25
@@ -30,11 +30,11 @@ func random_landing_pad() -> void:
 	tween = create_tween()
 	tween.set_trans(Tween.TRANS_QUAD)
 	tween.set_ease(Tween.EASE_IN)
-	const JUMP_HEIGHT = 50.0
+	const JUMP_HEIGHT = 200.0
 	tween.tween_property(bird, "position:y", land_position.y - JUMP_HEIGHT, HALF_HOP_TIME)
 	tween.set_ease(Tween.EASE_IN)
 	tween.tween_property(bird, "position:y", land_position.y, HALF_HOP_TIME)
-	timer.wait_time = randf_range(1.0, 3.0)
+	timer.wait_time = randf_range(0.25, 1.0)
 	tween.finished.connect(timer.start)
 	
 	

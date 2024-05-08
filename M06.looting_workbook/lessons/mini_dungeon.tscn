@@ -338,10 +338,98 @@ position = Vector2(332.006, 319.587)
 
 [node name="Bird" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 
+[node name="Bird260" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird261" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird262" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird263" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird264" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird265" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird266" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird267" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird268" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird269" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
+[node name="Bird270" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+
 [node name="Bird2" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(160, -142)
 
+[node name="Bird112" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird113" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird114" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird115" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird116" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird117" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird118" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird119" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird120" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird121" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
+[node name="Bird122" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(160, -142)
+
 [node name="Bird3" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird271" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird272" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird273" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird274" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird275" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird276" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird277" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird278" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird279" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird280" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-13, -34)
+
+[node name="Bird281" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(-13, -34)
 
 [node name="Bird4" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
@@ -350,46 +438,542 @@ position = Vector2(38, -10)
 [node name="Bird5" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(254.994, 25.4134)
 
+[node name="Bird123" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird124" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird125" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird126" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird127" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird128" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird129" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird130" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird131" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird132" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
+[node name="Bird133" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(254.994, 25.4134)
+
 [node name="Bird6" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird41" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird42" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird43" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird44" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird45" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird46" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird47" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(400.994, -70.5866)
+
+[node name="Bird48" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(400.994, -70.5866)
 
 [node name="Bird7" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(321.994, 119.413)
 
+[node name="Bird192" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird193" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird194" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird195" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird196" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird197" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird198" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird199" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird200" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird201" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
+[node name="Bird202" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(321.994, 119.413)
+
 [node name="Bird17" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird225" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird226" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird227" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird228" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird229" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird230" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird231" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird232" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird233" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird234" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(529.994, 150.413)
+
+[node name="Bird235" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(529.994, 150.413)
 
 [node name="Bird18" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(301.994, 68.4134)
 
+[node name="Bird134" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird135" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird136" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird137" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird138" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird139" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird140" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird141" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird142" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird143" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird144" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird145" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird146" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
+[node name="Bird147" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(301.994, 68.4134)
+
 [node name="Bird38" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird178" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird179" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird180" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird181" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird182" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird183" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird184" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird185" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird186" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird187" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird188" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird189" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird190" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(252.994, 122.413)
+
+[node name="Bird191" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(252.994, 122.413)
 
 [node name="Bird19" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(489.994, 22.4134)
 
+[node name="Bird70" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(489.994, 22.4134)
+
+[node name="Bird71" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(489.994, 22.4134)
+
+[node name="Bird72" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(489.994, 22.4134)
+
+[node name="Bird73" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(489.994, 22.4134)
+
+[node name="Bird74" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(489.994, 22.4134)
+
+[node name="Bird75" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(489.994, 22.4134)
+
+[node name="Bird76" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(489.994, 22.4134)
+
 [node name="Bird20" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird90" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird91" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird92" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird93" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird94" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird95" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird96" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird97" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird98" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird99" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(146.994, -41.5866)
+
+[node name="Bird100" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(146.994, -41.5866)
 
 [node name="Bird8" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(206.994, -25.5866)
 
+[node name="Bird77" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird78" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird79" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird80" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird81" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird82" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird83" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird84" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird85" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird86" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird87" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird88" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
+[node name="Bird89" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(206.994, -25.5866)
+
 [node name="Bird9" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird61" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird62" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird63" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird64" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird65" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird66" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird67" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird68" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(304.994, -41.5866)
+
+[node name="Bird69" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(304.994, -41.5866)
 
 [node name="Bird12" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(470.994, 104.413)
 
+[node name="Bird213" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird214" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird215" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird216" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird217" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird218" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird219" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird220" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird221" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird222" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird223" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
+[node name="Bird224" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(470.994, 104.413)
+
 [node name="Bird13" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird407" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird408" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird409" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird410" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird411" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird412" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird413" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird414" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird415" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(546.994, 37.4134)
+
+[node name="Bird416" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(546.994, 37.4134)
 
 [node name="Bird39" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(633.994, 18.4134)
 
+[node name="Bird417" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird418" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird419" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird420" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird421" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird422" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird423" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird424" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
+[node name="Bird425" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(633.994, 18.4134)
+
 [node name="Bird14" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(474.994, -68.5866)
 
+[node name="Bird49" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird50" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird51" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird52" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird53" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird54" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird55" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird56" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird57" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird58" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird59" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
+[node name="Bird60" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(474.994, -68.5866)
+
 [node name="Bird15" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird203" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird204" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird205" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird206" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird207" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird208" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird209" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird210" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird211" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(414.994, 125.413)
+rotation = -1.35515
+
+[node name="Bird212" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(414.994, 125.413)
 rotation = -1.35515
 
@@ -397,60 +981,808 @@ rotation = -1.35515
 position = Vector2(210.994, 119.413)
 rotation = -1.35515
 
+[node name="Bird164" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird165" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird166" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird167" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird168" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird169" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird170" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird171" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird172" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird173" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird174" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird175" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird176" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
+[node name="Bird177" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(210.994, 119.413)
+rotation = -1.35515
+
 [node name="Bird10" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird148" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird149" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird150" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird151" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird152" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird153" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird154" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird155" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird156" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird157" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird158" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird159" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird160" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird161" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird162" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(188.994, 47.4134)
+
+[node name="Bird163" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(188.994, 47.4134)
 
 [node name="Bird36" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(87.9943, 78.4134)
 
+[node name="Bird248" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird249" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird250" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird251" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird252" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird253" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird254" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird255" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird256" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird257" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird258" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
+[node name="Bird259" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(87.9943, 78.4134)
+
 [node name="Bird37" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird236" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird237" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird238" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird239" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird240" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird241" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird242" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird243" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird244" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird245" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird246" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(8.99426, 81.4134)
+
+[node name="Bird247" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(8.99426, 81.4134)
 
 [node name="Bird11" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(110.994, -96.5866)
 
+[node name="Bird101" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird102" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird103" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird104" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird105" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird106" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird107" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird108" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird109" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird110" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
+[node name="Bird111" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(110.994, -96.5866)
+
 [node name="Bird21" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird388" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird389" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird390" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird391" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird392" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird393" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird394" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird395" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird396" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-82.0057, -101.587)
+
+[node name="Bird397" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(-82.0057, -101.587)
 
 [node name="Bird22" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(-38.0057, -250.587)
 
+[node name="Bird326" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird327" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird328" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird329" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird330" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird331" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird332" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird333" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird334" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird335" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird336" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
+[node name="Bird337" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-38.0057, -250.587)
+
 [node name="Bird23" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird307" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird308" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird309" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird310" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird311" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird312" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird313" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird314" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird315" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird316" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(109.994, -279.587)
+
+[node name="Bird317" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(109.994, -279.587)
 
 [node name="Bird24" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(317.994, -317.587)
 
+[node name="Bird282" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird283" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird284" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird285" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird286" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird287" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird288" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird289" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird290" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird291" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird292" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
+[node name="Bird293" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(317.994, -317.587)
+
 [node name="Bird28" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird378" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird379" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird380" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird381" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird382" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird383" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird384" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird385" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird386" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-70.0057, -316.587)
+
+[node name="Bird387" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(-70.0057, -316.587)
 
 [node name="Bird29" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(374.994, -373.587)
 
+[node name="Bird455" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird456" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird457" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird458" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird459" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird460" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird461" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird462" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
+[node name="Bird463" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(374.994, -373.587)
+
 [node name="Bird30" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird361" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird362" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird363" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird364" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird365" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird366" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird367" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird368" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(174.994, -337.587)
+
+[node name="Bird369" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(174.994, -337.587)
 
 [node name="Bird31" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(-61.0057, -202.587)
 
+[node name="Bird398" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird399" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird400" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird401" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird402" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird403" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird404" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird405" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
+[node name="Bird406" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-61.0057, -202.587)
+
 [node name="Bird32" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(25.9943, -326.587)
 
+[node name="Bird370" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird371" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird372" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird373" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird374" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird375" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird376" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird377" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(25.9943, -326.587)
+
+[node name="Bird466" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird467" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird468" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird469" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird470" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird471" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird472" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird473" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
+[node name="Bird474" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(241.994, -287.587)
+
 [node name="Bird33" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird351" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird352" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird353" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird354" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird355" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird356" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird357" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird358" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird359" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(528.994, -301.587)
+
+[node name="Bird360" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(528.994, -301.587)
 
 [node name="Bird34" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(641.994, -259.587)
 
+[node name="Bird435" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird436" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird437" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird438" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird439" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird440" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird441" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird442" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
+[node name="Bird443" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(641.994, -259.587)
+
 [node name="Bird35" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(637.994, -186.587)
 rotation = 2.19338
-scale = Vector2(1, 1)
+
+[node name="Bird444" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird445" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird446" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird447" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird448" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird449" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird450" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird451" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird452" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird453" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
+
+[node name="Bird454" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(637.994, -186.587)
+rotation = 2.19338
 
 [node name="Bird25" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(603.994, -290.587)
 
+[node name="Bird426" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird427" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird428" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird429" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird430" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird431" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird432" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird433" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird434" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(603.994, -290.587)
+
+[node name="Bird475" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird476" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird477" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird478" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird479" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird480" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird481" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird482" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird483" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird484" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird485" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(575.994, -338.587)
+
+[node name="Bird486" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird487" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird488" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird489" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird490" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird491" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird492" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird493" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird494" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
+[node name="Bird495" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(650.994, -327.587)
+
 [node name="Bird26" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird338" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird339" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird340" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird341" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird342" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird343" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird344" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird345" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird346" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird347" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird348" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird349" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(595.994, -237.587)
+rotation = 3.12141
+
+[node name="Bird350" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(595.994, -237.587)
 rotation = 3.12141
 
@@ -458,6 +1790,98 @@ rotation = 3.12141
 position = Vector2(-146.006, -320.587)
 rotation = 3.12141
 
+[node name="Bird318" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird319" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird320" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird321" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird322" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird323" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird324" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird325" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird464" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
+[node name="Bird465" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(-146.006, -320.587)
+rotation = 3.12141
+
 [node name="Bird27" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird294" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird295" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird296" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird297" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird298" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird299" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird300" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird301" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird302" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird303" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird304" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird305" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
+position = Vector2(471.994, -349.587)
+rotation = 3.12141
+
+[node name="Bird306" parent="BirdsInTheTrapSingMcKnight" instance=ExtResource("8_txufp")]
 position = Vector2(471.994, -349.587)
 rotation = 3.12141
