@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://degrw1lcvvpyg"]
+
+[ext_resource type="Script" path="res://runner.gd" id="1_a12q6"]
+[ext_resource type="Texture2D" uid="uid://cbv2cg11oa3in" path="res://icon_top_down_movement.png" id="1_ycpy4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_62dco"]
+radius = 24.5153
+
+[node name="Runner" type="CharacterBody2D"]
+position = Vector2(861, 457)
+script = ExtResource("1_a12q6")
+
+[node name="Skin" type="Sprite2D" parent="."]
+texture = ExtResource("1_ycpy4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 38)
+shape = SubResource("CircleShape2D_62dco")
