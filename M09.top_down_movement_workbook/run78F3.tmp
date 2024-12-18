@@ -46,6 +46,7 @@ script = ExtResource("1_a12q6")
 
 [node name="Dust" type="GPUParticles2D" parent="."]
 position = Vector2(1.90069, 1.86517)
+scale = Vector2(1, 1)
 process_material = SubResource("ParticleProcessMaterial_sdkig")
 texture = ExtResource("5_q0ugw")
 

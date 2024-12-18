@@ -1,9 +1,13 @@
+class_name Runner 
+
 extends CharacterBody2D
 
+signal walked_to 
 @export var max_speed := 600.0
 @export var acceleration := 1200.0
 @export var deceleration := 1080.0
 @onready var runner_visual_red = %RunnerVisualRed
+@onready var dust = $Dust
 
 
 
@@ -31,6 +35,29 @@ func _physics_process(delta):
 		)
 		runner_visual_red.angle = rotate_toward(runner_visual_red.angle, direction.orthogonal().angle(), 8.0 * delta)
 		runner_visual_red.animation_name = RunnerVisual.Animations.WALK
+		dust.emitting = true
 	else:
 		runner_visual_red.animation_name = RunnerVisual.Animations.IDLE
+		dust.emitting = false
 
+func walk_to(destination_global_position: Vector2) -> void:
+	# obtain the direction and angle
+	var direction := global_position.direction_to(destination_global_position)
+	runner_visual_red.angle = direction.orthogonal().angle()
+
+	# Set the proper animation name
+	runner_visual_red.animation_name = RunnerVisual.Animations.WALK
+	dust.emitting = true
+
+	# obtain distance, and calculate direction from that
+	var distance := global_position.distance_to(destination_global_position)
+	var duration :=  distance / (max_speed * 0.2)
+
+	# tween the runner to destination, then emit `walked_to`
+	var tween := create_tween()
+	tween.tween_property(self, "global_position", destination_global_position, duration)
+	tween.finished.connect(func():
+		runner_visual_red.animation_name = RunnerVisual.Animations.IDLE
+		dust.emitting = false
+		walked_to.emit()
+	)
