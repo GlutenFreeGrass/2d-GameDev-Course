@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0fhfautsdyip"]
+
+[ext_resource type="Texture2D" uid="uid://cyi426tkmrmjy" path="res://assets/circuit_obstacle.png" id="1_wme4o"]
+
+[node name="circuit" type="StaticBody2D"]
+position = Vector2(10, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_wme4o")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-714, -704, 470, -704, 726, -448, 982, -448, 1206, -224, 1206, 416, 982, 640, 822, 640, 598, 416, 566, 384, 566, 32, 278, -256, -234, -256, -586, 32, -586, 416, -810, 640, -970, 640, -1226, 416, -1226, -224)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-810, -960, 566, -960, 822, -704, 1046, -704, 1462, -288, 1462, 512, 1782, 512, 1782, -1280, -810, -1280)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-810, -960, -1482, -288, -1482, 480, -1066, 896, -714, 896, -298, 480, -10, 480, -10, 1184, -1802, 1184, -1802, -1280, -810, -1280)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-298, 480, -298, 128, -170, 0, 150, 0, 310, 192, 310, 480, 726, 896, 1046, 896, 1462, 512, 1782, 512, 1782, 1184, -10, 1184, -10, 480)
