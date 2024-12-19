@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://f0tpmkrly3j2"]
+[gd_scene load_steps=10 format=3 uid="uid://f0tpmkrly3j2"]
 
 [ext_resource type="PackedScene" uid="uid://cunk2pnea3sai" path="res://simple_obstacle.tscn" id="1_3w3c0"]
 [ext_resource type="Script" path="res://game.gd" id="1_h1c1q"]
@@ -6,6 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://5vl7p0xb7nd8" path="res://assets/circuit_background.png" id="4_b0qi0"]
 [ext_resource type="PackedScene" uid="uid://c0fhfautsdyip" path="res://static_body_2d.tscn" id="4_kgyfa"]
 [ext_resource type="PackedScene" uid="uid://xl56q8amb611" path="res://assets/finish_line/finish_line.tscn" id="5_3ixrk"]
+[ext_resource type="Theme" uid="uid://cdcyvsn1fp8wa" path="res://assets/countdown/count_down_theme.tres" id="7_sahp1"]
+[ext_resource type="Script" path="res://assets/countdown/count_down.gd" id="8_6ofab"]
+[ext_resource type="PackedScene" uid="uid://dbqj8yfa1l45" path="res://pause_screen.tscn" id="9_eq1a2"]
 
 [node name="game" type="Node2D"]
 y_sort_enabled = true
@@ -22,19 +25,51 @@ position = Vector2(53.757, -973.569)
 position = Vector2(430.056, -863.375)
 
 [node name="Runner" parent="." instance=ExtResource("2_2w6vg")]
+process_mode = 3
 position = Vector2(-597.529, -830.431)
 scale = Vector2(1.28578, 1.40552)
 
 [node name="circuit" parent="." instance=ExtResource("4_kgyfa")]
+process_mode = 3
 z_index = -1
 position = Vector2(-5.16894, -11.3602)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Background" type="Sprite2D" parent="."]
+process_mode = 3
 z_index = -1
 position = Vector2(-4.06504e-05, -43.1688)
 texture = ExtResource("4_b0qi0")
 
 [node name="FinishLine" parent="." instance=ExtResource("5_3ixrk")]
 unique_name_in_owner = true
+process_mode = 3
 position = Vector2(-1345.99, -227.204)
 area_width = 256
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="CountDown" type="Label" parent="CanvasLayer"]
+unique_name_in_owner = true
+process_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -162.0
+offset_top = -109.5
+offset_right = 162.0
+offset_bottom = 109.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme = ExtResource("7_sahp1")
+text = "Test"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("8_6ofab")
+metadata/_edit_use_anchors_ = true
+
+[node name="PauseScreen" parent="CanvasLayer" instance=ExtResource("9_eq1a2")]
+visible = false

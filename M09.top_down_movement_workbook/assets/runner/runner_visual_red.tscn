@@ -510,27 +510,27 @@ texture = ExtResource("2_pbjpl")
 
 [node name="ArmR" parent="Visual" index="2"]
 self_modulate = Color(0.839277, 0.317525, 0.152895, 1)
-points = PackedVector2Array(16, -63.6, 48, -37.6)
+points = PackedVector2Array(16, -68.7833, 48, -42.7833)
 
 [node name="ArmL" parent="Visual" index="3"]
 self_modulate = Color(0.839277, 0.317525, 0.152895, 1)
-points = PackedVector2Array(-16, -63.6, -48, -37.6)
+points = PackedVector2Array(-16, -68.7833, -48, -42.7833)
 
 [node name="LegR" parent="Visual" index="4"]
 self_modulate = Color(0.839277, 0.317525, 0.152895, 1)
-points = PackedVector2Array(16, -29.6, 16, -23)
+points = PackedVector2Array(16, -34.7833, 16, -23)
 
 [node name="LegL" parent="Visual" index="5"]
 self_modulate = Color(0.839277, 0.317525, 0.152895, 1)
-points = PackedVector2Array(-16, -29.6, -16, -23)
+points = PackedVector2Array(-16, -34.7833, -16, -23)
 
 [node name="Body" parent="Visual" index="6"]
-position = Vector2(0, -45.7)
+position = Vector2(0, -50.7001)
 scale = Vector2(1.00001, 1.00001)
 texture = ExtResource("3_c2s05")
 
 [node name="HeadShape" parent="Visual" index="7"]
-position = Vector2(0, -132.234)
+position = Vector2(0, -140.686)
 scale = Vector2(1.00001, 1.00001)
 texture = ExtResource("4_jlvl7")
 
@@ -542,7 +542,7 @@ position = Vector2(192, 0)
 texture = ExtResource("7_gwbl7")
 
 [node name="EarR" parent="Visual" index="8"]
-position = Vector2(82, -121.571)
+position = Vector2(82, -130.023)
 scale = Vector2(1.00001, 1.00001)
 texture = ExtResource("8_0e8o4")
 
@@ -550,7 +550,7 @@ texture = ExtResource("8_0e8o4")
 texture = ExtResource("9_wrnpm")
 
 [node name="EarL" parent="Visual" index="9"]
-position = Vector2(-82, -121.571)
+position = Vector2(-82, -130.023)
 scale = Vector2(1.00001, 1.00001)
 texture = ExtResource("8_0e8o4")
 
@@ -558,12 +558,12 @@ texture = ExtResource("8_0e8o4")
 texture = ExtResource("9_wrnpm")
 
 [node name="HandR" parent="Visual" index="10"]
-position = Vector2(48, -37.7)
+position = Vector2(48, -42.7001)
 scale = Vector2(1.00001, 1.00001)
 texture = ExtResource("10_e8mf4")
 
 [node name="HandL" parent="Visual" index="11"]
-position = Vector2(-48, -37.7)
+position = Vector2(-48, -42.7001)
 scale = Vector2(1.00001, 1.00001)
 texture = ExtResource("10_e8mf4")
 

@@ -1,0 +1,127 @@
+[gd_scene load_steps=9 format=3 uid="uid://dbqj8yfa1l45"]
+
+[ext_resource type="FontFile" uid="uid://vxbfcnef0pvq" path="res://assets/fonts/rubik/Rubik-Bold.ttf" id="1_pn8tu"]
+[ext_resource type="Shader" path="res://assets/blur.gdshader" id="2_myqla"]
+[ext_resource type="Script" path="res://pause_screen.gd" id="2_rm0kl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_an66b"]
+content_margin_left = 10.0
+content_margin_top = 20.0
+bg_color = Color(0.0980392, 0.0980392, 0.0980392, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i48o7"]
+content_margin_left = 10.0
+content_margin_top = 15.0
+content_margin_right = 10.0
+content_margin_bottom = 15.0
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nwt1r"]
+content_margin_left = 20.0
+content_margin_top = 20.0
+content_margin_right = 20.0
+content_margin_bottom = 20.0
+bg_color = Color(0.184314, 0.184314, 0.184314, 0.792157)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="Theme" id="Theme_ojehh"]
+default_font = ExtResource("1_pn8tu")
+default_font_size = 42
+Button/colors/font_color = Color(0.875, 0.875, 0.875, 1)
+Button/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+Button/colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
+Button/colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+Button/colors/icon_focus_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_normal_color = Color(1, 1, 1, 1)
+Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
+Button/constants/h_separation = 4
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 0
+Button/styles/disabled = null
+Button/styles/focus = null
+Button/styles/hover = SubResource("StyleBoxFlat_an66b")
+Button/styles/normal = SubResource("StyleBoxFlat_i48o7")
+Button/styles/pressed = null
+Label/font_sizes/font_size = 64
+Label/fonts/font = ExtResource("1_pn8tu")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_nwt1r")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ghscn"]
+shader = ExtResource("2_myqla")
+shader_parameter/blur_amount = 0.0
+shader_parameter/tint = null
+shader_parameter/tint_strength = 0.0
+shader_parameter/saturation = 1.0
+
+[node name="PauseScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_ojehh")
+script = ExtResource("2_rm0kl")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_ghscn")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="UIContainer" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -387.0
+offset_top = -363.0
+offset_right = 387.0
+offset_bottom = 363.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UIContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="UIContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+text = "PAUSED"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="UIContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UIContainer/VBoxContainer/CenterContainer"]
+layout_mode = 2
+
+[node name="Resume" type="Button" parent="UIContainer/VBoxContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+button_mask = 0
+text = "Resume"
+
+[node name="Quit" type="Button" parent="UIContainer/VBoxContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+button_mask = 0
+text = "Quit"
