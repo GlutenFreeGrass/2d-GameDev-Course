@@ -1,14 +1,4 @@
-## Draws a finish line. Can resize itself to fit any rectangular area.
-##
-## Instead of using a fixed image texture, this finish line uses a shader to
-## draw the lines and text. That allows it to cover any desired area.[br]
-## [br]
-## [FinishLine] inherits [Area2D], but it already has a collision shape baked in.
-## When resizing [FinishLine], the associated collision shape also resizes
-## accordingly.[br][br]
-##
-## [FinishLine] also has a [method pop_confettis] method which pops
-## confettis and congratulate the player.
+
 @tool
 @icon("finish_line.svg")
 class_name FinishLine extends Area2D

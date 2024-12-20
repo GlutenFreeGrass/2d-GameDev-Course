@@ -564,13 +564,14 @@ scale = Vector2(0.999918, 0.999922)
 skew = -2.12193e-05
 
 [node name="FootSprite" type="Sprite2D" parent="Visual/FootR"]
+visible = false
 texture = ExtResource("2_ay0ik")
 offset = Vector2(0, 12)
 
 [node name="ArmR" type="Line2D" parent="Visual"]
 unique_name_in_owner = true
 self_modulate = Color(0.529549, 0.45481, 0.988266, 1)
-points = PackedVector2Array(16, -64.2895, 48, -38.2895)
+points = PackedVector2Array(16, -65.0078, 48, -39.0078)
 width = 18.0
 begin_cap_mode = 2
 end_cap_mode = 2
@@ -579,7 +580,7 @@ antialiased = true
 [node name="ArmL" type="Line2D" parent="Visual"]
 unique_name_in_owner = true
 self_modulate = Color(0.529549, 0.45481, 0.988266, 1)
-points = PackedVector2Array(-16, -64.2895, -48, -38.2895)
+points = PackedVector2Array(-16, -65.0078, -48, -39.0078)
 width = 18.0
 begin_cap_mode = 2
 end_cap_mode = 2
@@ -588,7 +589,7 @@ antialiased = true
 [node name="LegR" type="Line2D" parent="Visual"]
 unique_name_in_owner = true
 self_modulate = Color(0.529549, 0.45481, 0.988266, 1)
-points = PackedVector2Array(16, -30.2895, 16, -23)
+points = PackedVector2Array(16, -31.0078, 16, -23)
 width = 22.0
 begin_cap_mode = 2
 end_cap_mode = 2
@@ -597,20 +598,20 @@ antialiased = true
 [node name="LegL" type="Line2D" parent="Visual"]
 unique_name_in_owner = true
 self_modulate = Color(0.529549, 0.45481, 0.988266, 1)
-points = PackedVector2Array(-16, -30.2895, -16, -23)
+points = PackedVector2Array(-16, -31.0078, -16, -23)
 width = 22.0
 begin_cap_mode = 2
 end_cap_mode = 2
 antialiased = true
 
 [node name="Body" type="Sprite2D" parent="Visual"]
-position = Vector2(0, -46.6356)
+position = Vector2(0, -47.2)
 texture = ExtResource("3_ekfnj")
 
 [node name="HeadShape" type="Sprite2D" parent="Visual"]
 clip_children = 2
 z_index = 1
-position = Vector2(0, -132.896)
+position = Vector2(0, -133.342)
 texture = ExtResource("4_v3uea")
 
 [node name="Face" type="Sprite2D" parent="Visual/HeadShape"]
@@ -626,7 +627,7 @@ texture = ExtResource("6_op40g")
 
 [node name="EarR" type="Sprite2D" parent="Visual"]
 unique_name_in_owner = true
-position = Vector2(82, -122.233)
+position = Vector2(82, -122.679)
 texture = ExtResource("7_q8la0")
 
 [node name="AntennaR" type="Sprite2D" parent="Visual/EarR"]
@@ -638,7 +639,7 @@ offset = Vector2(0, -10)
 
 [node name="EarL" type="Sprite2D" parent="Visual"]
 unique_name_in_owner = true
-position = Vector2(-82, -122.233)
+position = Vector2(-82, -122.679)
 texture = ExtResource("7_q8la0")
 
 [node name="AntennaL" type="Sprite2D" parent="Visual/EarL"]
@@ -650,12 +651,12 @@ offset = Vector2(0, -10)
 
 [node name="HandR" type="Sprite2D" parent="Visual"]
 unique_name_in_owner = true
-position = Vector2(48, -38.6356)
+position = Vector2(48, -39.2)
 texture = ExtResource("9_ea8vt")
 
 [node name="HandL" type="Sprite2D" parent="Visual"]
 unique_name_in_owner = true
-position = Vector2(-48, -38.6356)
+position = Vector2(-48, -39.2)
 texture = ExtResource("9_ea8vt")
 
 [node name="Root" type="Node2D" parent="."]
@@ -753,6 +754,9 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 unique_name_in_owner = true
 root_node = NodePath("%AnimationTree/..")
+libraries = {
+"": SubResource("AnimationLibrary_cx3nc")
+}
 tree_root = SubResource("AnimationNodeBlendTree_kce0i")
 anim_player = NodePath("../AnimationPlayer")
 

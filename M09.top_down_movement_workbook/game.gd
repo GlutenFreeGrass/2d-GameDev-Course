@@ -1,5 +1,6 @@
 extends Node2D
 
+@onready var bouncer = %Bouncer
 @onready var runner = $Runner
 @onready var count_down = %CountDown
 @onready var finish_line = %FinishLine
@@ -31,8 +32,12 @@ func _ready():
 	finish_line.confettis_finished.connect(
 		get_tree().reload_current_scene
 	)
-	 # Replace with function body.
+	bouncer.set_physics_process(false)
 
+	count_down.counting_finished.connect(
+		func() -> void:
+			bouncer.set_physics_process(true)
+	)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

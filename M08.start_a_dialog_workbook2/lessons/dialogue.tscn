@@ -1,0 +1,174 @@
+[gd_scene load_steps=26 format=3 uid="uid://chprvwfixox2y"]
+
+[ext_resource type="Theme" uid="uid://cxm3e18skt2lj" path="res://lessons/assets/main_theme.tres" id="1_frglg"]
+[ext_resource type="Script" path="res://lessons/dialogue.gd" id="2_n1q1t"]
+[ext_resource type="Shader" path="res://assets/sliding_background.gdshader" id="3_3nfwl"]
+[ext_resource type="Script" path="res://lessons/dialogue_items.gd" id="3_i2kwl"]
+[ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="4_xuy0d"]
+[ext_resource type="Script" path="res://lessons/slideshow_entry.gd" id="5_2n0hy"]
+[ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="5_g5y1a"]
+[ext_resource type="Script" path="res://lessons/dialogue_choice.gd" id="5_lnxmb"]
+[ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="6_bayqr"]
+[ext_resource type="AudioStream" uid="uid://chgko4hmxwxu5" path="res://assets/talking_synth.ogg" id="7_1fga6"]
+[ext_resource type="Texture2D" uid="uid://dchimpdsnda13" path="res://assets/emotion_happy.png" id="8_x8jja"]
+[ext_resource type="Texture2D" uid="uid://bhinvhx75etr2" path="res://assets/emotion_sad.png" id="10_vq3id"]
+
+[sub_resource type="Resource" id="Resource_q4hdi"]
+script = ExtResource("5_lnxmb")
+text = "Yes!"
+target_line_idx = 1
+is_quit = false
+
+[sub_resource type="Resource" id="Resource_t2tl7"]
+script = ExtResource("5_lnxmb")
+text = "No"
+target_line_idx = 0
+is_quit = true
+
+[sub_resource type="Resource" id="Resource_bjioo"]
+script = ExtResource("3_i2kwl")
+choices = Array[ExtResource("5_lnxmb")]([SubResource("Resource_q4hdi"), SubResource("Resource_t2tl7")])
+expression = ExtResource("6_bayqr")
+character = ExtResource("5_g5y1a")
+text = "Testing testing, does this work?"
+dialogue_items = Array[ExtResource("5_2n0hy")]([])
+
+[sub_resource type="Resource" id="Resource_65sri"]
+script = ExtResource("5_lnxmb")
+text = "Yes!"
+target_line_idx = 3
+is_quit = false
+
+[sub_resource type="Resource" id="Resource_yi6av"]
+script = ExtResource("5_lnxmb")
+text = "No"
+target_line_idx = 2
+is_quit = false
+
+[sub_resource type="Resource" id="Resource_0gkpx"]
+script = ExtResource("3_i2kwl")
+choices = Array[ExtResource("5_lnxmb")]([SubResource("Resource_65sri"), SubResource("Resource_yi6av")])
+expression = ExtResource("8_x8jja")
+character = ExtResource("5_g5y1a")
+text = "Perfect! Should we continue?"
+dialogue_items = Array[ExtResource("5_2n0hy")]([])
+
+[sub_resource type="Resource" id="Resource_jucen"]
+script = ExtResource("5_lnxmb")
+text = "Ok fine"
+target_line_idx = 3
+is_quit = false
+
+[sub_resource type="Resource" id="Resource_hron6"]
+script = ExtResource("5_lnxmb")
+text = "No"
+target_line_idx = 2
+is_quit = false
+
+[sub_resource type="Resource" id="Resource_m5noe"]
+script = ExtResource("3_i2kwl")
+choices = Array[ExtResource("5_lnxmb")]([SubResource("Resource_jucen"), SubResource("Resource_hron6")])
+expression = ExtResource("10_vq3id")
+character = ExtResource("5_g5y1a")
+text = "Please"
+dialogue_items = Array[ExtResource("5_2n0hy")]([])
+
+[sub_resource type="Resource" id="Resource_jk01u"]
+script = ExtResource("5_lnxmb")
+text = "Ok!"
+target_line_idx = 0
+is_quit = true
+
+[sub_resource type="Resource" id="Resource_n3f13"]
+script = ExtResource("5_lnxmb")
+text = "Ok..."
+target_line_idx = 0
+is_quit = true
+
+[sub_resource type="Resource" id="Resource_157sw"]
+script = ExtResource("3_i2kwl")
+choices = Array[ExtResource("5_lnxmb")]([SubResource("Resource_jk01u"), SubResource("Resource_n3f13")])
+expression = ExtResource("8_x8jja")
+character = ExtResource("5_g5y1a")
+text = "Ok lets continue!"
+dialogue_items = Array[ExtResource("5_2n0hy")]([])
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_efgpg"]
+shader = ExtResource("3_3nfwl")
+shader_parameter/bg_color = Color(0.980392, 0.94902, 0.72549, 1)
+shader_parameter/pattern_color = Color(0.996078, 0.878431, 0.564706, 1)
+shader_parameter/pattern_size = 256.0
+shader_parameter/pattern_sampler = ExtResource("4_xuy0d")
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_frglg")
+script = ExtResource("2_n1q1t")
+dialogue_items = Array[ExtResource("3_i2kwl")]([SubResource("Resource_bjioo"), SubResource("Resource_0gkpx"), SubResource("Resource_m5noe"), SubResource("Resource_157sw")])
+
+[node name="Background" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_efgpg")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Body" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_top = 174.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_g5y1a")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Expression" type="TextureRect" parent="Body"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_bayqr")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("7_1fga6")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1000.0
+offset_top = 363.0
+offset_right = 1458.0
+offset_bottom = 889.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 2
+bbcode_enabled = true
+fit_content = true
+
+[node name="ActionButtons" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/ActionButtons"]
+layout_mode = 2
+text = "Test"
+
+[node name="Button2" type="Button" parent="VBoxContainer/ActionButtons"]
+layout_mode = 2
+text = "Test"
